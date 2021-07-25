@@ -4,6 +4,6 @@ go:
   - 1.x
   - master
 
-scripts:
+script:
   - go test -v ./...
   - go build .
